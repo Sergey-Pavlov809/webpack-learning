@@ -1,4 +1,5 @@
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+//const MinifyPlugin = require('babel-minify-webpack-plugin');
 var path = require('path');
 
 module.exports={
@@ -52,6 +53,6 @@ module.exports={
         extensions: [ '.tsx', '.ts', '.js' ],
       },
     plugins: [
-        new HtmlWebpackPlugin({ template: './src/index.html',      title: 'Development',})
+        new HtmlWebpackPlugin({ template: './src/index.html',      title: 'Development',}),
     ]
 }
