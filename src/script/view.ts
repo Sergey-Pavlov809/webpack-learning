@@ -4,7 +4,7 @@ const pic2 = require('../img/picture2.jpg');
 const pic3 = require('../img/picture3.jpg');
 const pic4 = require('../img/picture4.jpg');
 const pic5 = require('../img/picture5.jpg');
-const css = require('../css/main.css');
+//const css = require('../css/main.css');
 
 let arrayImg:any = [];
 arrayImg.push(pic1.default);

@@ -26,7 +26,7 @@ module.exports={
         },
 
           {
-            test:/\.css$/i,
+            test:/\.(s*)css$/,
             use:[
                 {
                     loader:'style-loader',
@@ -34,7 +34,8 @@ module.exports={
                         injectType:'singletonStyleTag'
                     }
                 },
-                'css-loader'
+                'css-loader',
+                'sass-loader',
             ]
         },
         {
